@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ArticleViewController.initScrollView():ArticleViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in UserDetailsViewController.initDaysScrollView():UserDetailsViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in BlogViewController.fetchArticles():BlogViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ArticleViewController.submitButtonHandle(sender:):ArticleViewController.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4948D1BCEF31DDD80BB834C2 /* Pods_Nutricoach_Admin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983B5F0571ACDD22B7B2D3CA /* Pods_Nutricoach_Admin.framework */; };
+		F113995A2242E98300F15466 /* NewIngredientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11399592242E98300F15466 /* NewIngredientViewController.swift */; };
+		F11B73552222FB0B00FD8CDC /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B73542222FB0B00FD8CDC /* UserCell.swift */; };
+		F11B7357222500C300FD8CDC /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B7356222500C300FD8CDC /* UserDetailsViewController.swift */; };
+		F133A53B226B806200C4F092 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F133A53A226B806200C4F092 /* ArticleTableViewCell.swift */; };
+		F133A53D226B811300C4F092 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = F133A53C226B811300C4F092 /* Article.swift */; };
+		F133A53F226B816300C4F092 /* BlogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F133A53E226B816300C4F092 /* BlogViewController.swift */; };
+		F133A541226B819A00C4F092 /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F133A540226B819A00C4F092 /* ArticleViewController.swift */; };
+		F15263D22222E457007AD225 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15263D12222E457007AD225 /* Message.swift */; };
+		F1829364222A1FFC00E8F4C7 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1829363222A1FFC00E8F4C7 /* Meal.swift */; };
+		F1829366222A4D4B00E8F4C7 /* NewMealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1829365222A4D4B00E8F4C7 /* NewMealViewController.swift */; };
+		F1A9AD962268D08A00607B33 /* IngredientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A9AD952268D08A00607B33 /* IngredientsViewController.swift */; };
+		F1A9AD9A226A8A6600607B33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1A9AD99226A8A6600607B33 /* Assets.xcassets */; };
+		F1C217D222202B8400209F3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C217D122202B8400209F3B /* AppDelegate.swift */; };
+		F1C217D722202B8400209F3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1C217D522202B8400209F3B /* Main.storyboard */; };
+		F1C217DC22202B8600209F3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1C217DA22202B8600209F3B /* LaunchScreen.storyboard */; };
+		F1C217E722202FEC00209F3B /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C217E622202FEC00209F3B /* ConversationsViewController.swift */; };
+		F1C217E92220300500209F3B /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C217E82220300500209F3B /* UsersViewController.swift */; };
+		F1C217EB2220378700209F3B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1C217EA2220378700209F3B /* GoogleService-Info.plist */; };
+		F1C217ED22205F8800209F3B /* NewMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C217EC22205F8800209F3B /* NewMessageViewController.swift */; };
+		F1C217F12220A7AB00209F3B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C217F02220A7AB00209F3B /* User.swift */; };
+		F1C217F32220B56400209F3B /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C217F22220B56400209F3B /* ChatViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1AFAC958126A3084557BB1D3 /* Pods-Nutricoach Admin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nutricoach Admin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nutricoach Admin/Pods-Nutricoach Admin.debug.xcconfig"; sourceTree = "<group>"; };
+		983B5F0571ACDD22B7B2D3CA /* Pods_Nutricoach_Admin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nutricoach_Admin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC8C5E81CAD0235407116759 /* Pods-Nutricoach Admin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nutricoach Admin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nutricoach Admin/Pods-Nutricoach Admin.release.xcconfig"; sourceTree = "<group>"; };
+		F11399592242E98300F15466 /* NewIngredientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewIngredientViewController.swift; sourceTree = "<group>"; };
+		F11B73542222FB0B00FD8CDC /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		F11B7356222500C300FD8CDC /* UserDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewController.swift; sourceTree = "<group>"; };
+		F133A53A226B806200C4F092 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
+		F133A53C226B811300C4F092 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		F133A53E226B816300C4F092 /* BlogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogViewController.swift; sourceTree = "<group>"; };
+		F133A540226B819A00C4F092 /* ArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = "<group>"; };
+		F15263D12222E457007AD225 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		F1829363222A1FFC00E8F4C7 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		F1829365222A4D4B00E8F4C7 /* NewMealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMealViewController.swift; sourceTree = "<group>"; };
+		F1A9AD952268D08A00607B33 /* IngredientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsViewController.swift; sourceTree = "<group>"; };
+		F1A9AD99226A8A6600607B33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1C217CE22202B8400209F3B /* Nutricoach Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nutricoach Admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C217D122202B8400209F3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1C217D622202B8400209F3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1C217DB22202B8600209F3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1C217DD22202B8600209F3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1C217E622202FEC00209F3B /* ConversationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
+		F1C217E82220300500209F3B /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		F1C217EA2220378700209F3B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F1C217EC22205F8800209F3B /* NewMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageViewController.swift; sourceTree = "<group>"; };
+		F1C217F02220A7AB00209F3B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F1C217F22220B56400209F3B /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1C217CB22202B8400209F3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4948D1BCEF31DDD80BB834C2 /* Pods_Nutricoach_Admin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		272E66A9D63D6C840FD6C90E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				983B5F0571ACDD22B7B2D3CA /* Pods_Nutricoach_Admin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69C684E3EF19394373D95365 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AFAC958126A3084557BB1D3 /* Pods-Nutricoach Admin.debug.xcconfig */,
+				BC8C5E81CAD0235407116759 /* Pods-Nutricoach Admin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F1C217C522202B8400209F3B = {
+			isa = PBXGroup;
+			children = (
+				F1C217D022202B8400209F3B /* Nutricoach Admin */,
+				F1C217CF22202B8400209F3B /* Products */,
+				69C684E3EF19394373D95365 /* Pods */,
+				272E66A9D63D6C840FD6C90E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F1C217CF22202B8400209F3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1C217CE22202B8400209F3B /* Nutricoach Admin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1C217D022202B8400209F3B /* Nutricoach Admin */ = {
+			isa = PBXGroup;
+			children = (
+				F1C217E522202C3300209F3B /* Controller */,
+				F1C217E422202C2C00209F3B /* View */,
+				F1C217E322202C2500209F3B /* Model */,
+				F1C217D122202B8400209F3B /* AppDelegate.swift */,
+				F1C217D522202B8400209F3B /* Main.storyboard */,
+				F1C217DA22202B8600209F3B /* LaunchScreen.storyboard */,
+				F1A9AD99226A8A6600607B33 /* Assets.xcassets */,
+				F1C217DD22202B8600209F3B /* Info.plist */,
+				F1C217EA2220378700209F3B /* GoogleService-Info.plist */,
+			);
+			path = "Nutricoach Admin";
+			sourceTree = "<group>";
+		};
+		F1C217E322202C2500209F3B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F1C217F02220A7AB00209F3B /* User.swift */,
+				F15263D12222E457007AD225 /* Message.swift */,
+				F1829363222A1FFC00E8F4C7 /* Meal.swift */,
+				F133A53C226B811300C4F092 /* Article.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F1C217E422202C2C00209F3B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F133A53A226B806200C4F092 /* ArticleTableViewCell.swift */,
+				F11B73542222FB0B00FD8CDC /* UserCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F1C217E522202C3300209F3B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F1C217E622202FEC00209F3B /* ConversationsViewController.swift */,
+				F1C217E82220300500209F3B /* UsersViewController.swift */,
+				F1C217EC22205F8800209F3B /* NewMessageViewController.swift */,
+				F1C217F22220B56400209F3B /* ChatViewController.swift */,
+				F11B7356222500C300FD8CDC /* UserDetailsViewController.swift */,
+				F1829365222A4D4B00E8F4C7 /* NewMealViewController.swift */,
+				F11399592242E98300F15466 /* NewIngredientViewController.swift */,
+				F1A9AD952268D08A00607B33 /* IngredientsViewController.swift */,
+				F133A53E226B816300C4F092 /* BlogViewController.swift */,
+				F133A540226B819A00C4F092 /* ArticleViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1C217CD22202B8400209F3B /* Nutricoach Admin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1C217E022202B8600209F3B /* Build configuration list for PBXNativeTarget "Nutricoach Admin" */;
+			buildPhases = (
+				CE1C2DCA7944A48088224F10 /* [CP] Check Pods Manifest.lock */,
+				F1C217CA22202B8400209F3B /* Sources */,
+				F1C217CB22202B8400209F3B /* Frameworks */,
+				F1C217CC22202B8400209F3B /* Resources */,
+				0B739DA954A6861630BD6C11 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nutricoach Admin";
+			productName = "Nutricoach Admin";
+			productReference = F1C217CE22202B8400209F3B /* Nutricoach Admin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1C217C622202B8400209F3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Milan Vidojevic";
+				TargetAttributes = {
+					F1C217CD22202B8400209F3B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = F1C217C922202B8400209F3B /* Build configuration list for PBXProject "Nutricoach Admin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1C217C522202B8400209F3B;
+			productRefGroup = F1C217CF22202B8400209F3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1C217CD22202B8400209F3B /* Nutricoach Admin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1C217CC22202B8400209F3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C217DC22202B8600209F3B /* LaunchScreen.storyboard in Resources */,
+				F1C217EB2220378700209F3B /* GoogleService-Info.plist in Resources */,
+				F1A9AD9A226A8A6600607B33 /* Assets.xcassets in Resources */,
+				F1C217D722202B8400209F3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B739DA954A6861630BD6C11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Nutricoach Admin/Pods-Nutricoach Admin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageKit/MessageKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nutricoach Admin/Pods-Nutricoach Admin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE1C2DCA7944A48088224F10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nutricoach Admin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1C217CA22202B8400209F3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1A9AD962268D08A00607B33 /* IngredientsViewController.swift in Sources */,
+				F1829366222A4D4B00E8F4C7 /* NewMealViewController.swift in Sources */,
+				F1829364222A1FFC00E8F4C7 /* Meal.swift in Sources */,
+				F113995A2242E98300F15466 /* NewIngredientViewController.swift in Sources */,
+				F11B73552222FB0B00FD8CDC /* UserCell.swift in Sources */,
+				F1C217E722202FEC00209F3B /* ConversationsViewController.swift in Sources */,
+				F133A53F226B816300C4F092 /* BlogViewController.swift in Sources */,
+				F1C217E92220300500209F3B /* UsersViewController.swift in Sources */,
+				F1C217D222202B8400209F3B /* AppDelegate.swift in Sources */,
+				F1C217F12220A7AB00209F3B /* User.swift in Sources */,
+				F1C217F32220B56400209F3B /* ChatViewController.swift in Sources */,
+				F133A541226B819A00C4F092 /* ArticleViewController.swift in Sources */,
+				F1C217ED22205F8800209F3B /* NewMessageViewController.swift in Sources */,
+				F15263D22222E457007AD225 /* Message.swift in Sources */,
+				F133A53B226B806200C4F092 /* ArticleTableViewCell.swift in Sources */,
+				F11B7357222500C300FD8CDC /* UserDetailsViewController.swift in Sources */,
+				F133A53D226B811300C4F092 /* Article.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F1C217D522202B8400209F3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1C217D622202B8400209F3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1C217DA22202B8600209F3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1C217DB22202B8600209F3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1C217DE22202B8600209F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1C217DF22202B8600209F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1C217E122202B8600209F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AFAC958126A3084557BB1D3 /* Pods-Nutricoach Admin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87KV986KVD;
+				INFOPLIST_FILE = "Nutricoach Admin/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.milan.Nutricoach-Admin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1C217E222202B8600209F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC8C5E81CAD0235407116759 /* Pods-Nutricoach Admin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87KV986KVD;
+				INFOPLIST_FILE = "Nutricoach Admin/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.milan.Nutricoach-Admin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1C217C922202B8400209F3B /* Build configuration list for PBXProject "Nutricoach Admin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C217DE22202B8600209F3B /* Debug */,
+				F1C217DF22202B8600209F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1C217E022202B8600209F3B /* Build configuration list for PBXNativeTarget "Nutricoach Admin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C217E122202B8600209F3B /* Debug */,
+				F1C217E222202B8600209F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1C217C622202B8400209F3B /* Project object */;
+}
